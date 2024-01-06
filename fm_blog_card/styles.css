@@ -1,25 +1,39 @@
 body {
     background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+    height: 100vh; /* Ensure full viewport height */
+    margin: 0; /* Remove default margin */
 }
 
 .main-box {
-background-color: #fff;
-width: 500px;
-display: flex;
-margin: 50% auto;
-flex-direction: column;
-padding: 20px;
-border-radius: 10px;
+    background-color: #fff;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
 }
 
 .tag {
     border: 1px solid black;
-    float: left;
     display: flex;
+    justify-content: center; /* Center the tag horizontally */
+    align-items: center; /* Center the tag vertically */
     border-radius: 10px;
     padding: 5px;
-    width: 70px;
+    width: 80px;
+    height: 20px;
     text-align: center;
-    background-color:hsl(47, 88%, 63%);
+    background-color: hsl(47, 88%, 63%);
     font-weight: bold;
 }
+
+p, h2 {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
