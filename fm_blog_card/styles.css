@@ -1,39 +1,70 @@
-body {
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
     background-color: hsl(47, 88%, 63%);
     display: flex;
-    align-items: center; /* Center the content vertically */
-    justify-content: center; /* Center the content horizontally */
-    height: 100vh; /* Ensure full viewport height */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Set the body height to the full viewport height */
     margin: 0; /* Remove default margin */
-}
+    font-family: 'Figtree', sans-serif;
 
-.main-box {
+ }
+
+ .img-logo {
+   border-radius: 10px;
+   margin-bottom: 10px;
+ }
+ 
+ .main-box {
     background-color: #fff;
-    width: 500px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     padding: 20px;
     border-radius: 10px;
-}
-}
-
-.tag {
+    box-shadow: 5px 5px black;
+ }
+ 
+ .tag {
     border: 1px solid black;
     display: flex;
     justify-content: center; /* Center the tag horizontally */
     align-items: center; /* Center the tag vertically */
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px;
     width: 80px;
     height: 20px;
-    text-align: center;
     background-color: hsl(47, 88%, 63%);
     font-weight: bold;
-}
+ }
+ 
+ .title h2 {
+   font-weight: bold;
+   font-size: 24px;
+   margin-bottom: 2px;
+   margin-top: 0;
+ }
 
-p, h2 {
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-}
+ .date {
+   font-style: italic;
+ }
+ 
+ .attribution {
+    position: fixed;
+    left: 20px;
+    bottom: 0px;
+ }
 
+ .image-caption-container {
+   display: flex;
+   
+ }
+
+ .caption {
+   margin-left: 10px;
+   padding-top: 15px;
+   font-style: italic;
+ }
